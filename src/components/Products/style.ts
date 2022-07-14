@@ -6,13 +6,14 @@ export const Container = styled.div`
   margin-top:4rem ;
   width: 80%;
   height: 50%;
+  z-index:0 ;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
+  position:initial ;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;

@@ -1,11 +1,16 @@
 import { Container } from "./style";
 import {FiShoppingCart} from 'react-icons/fi'
+import { useContext } from "react";
+import { CartContext } from "../../Context/cart";
 
 interface headerProps{
     onOpenModal:()=>void
 }
 
 export function Header({onOpenModal}:headerProps){
+
+    const {quant}:any = useContext(CartContext)
+
     return(
         <div className="header-style">
             <Container>
@@ -20,7 +25,7 @@ export function Header({onOpenModal}:headerProps){
                     <li><a href="#Contact">Contato</a></li>
                 </ul>
 
-                <button onClick={onOpenModal}><FiShoppingCart/></button>
+                <button onClick={onOpenModal}> <span>{quant}</span><FiShoppingCart/></button>
                 </header>
             </Container>
         </div>

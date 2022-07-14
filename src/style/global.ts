@@ -11,15 +11,15 @@ export const GlobalStyle = createGlobalStyle`
 *{
   margin:0 auto ;
   align-items:center ;
-
 }
 
 body{
   font-family:sans-serif ;
-  
+  max-width:1366px ;
 }
 html{
         scroll-behavior:smooth;
+        max-width:1366px ;
     }
 
     .react-modal-overlay {

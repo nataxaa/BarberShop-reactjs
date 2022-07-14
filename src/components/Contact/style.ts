@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     width:auto ;
     height:max-content ;
-    height:710px ;
+    height:780px ;
     background-color:#1B1B1E ;
    
     h1{
@@ -55,11 +55,14 @@ export const Container = styled.div`
         color:#FFFBDB ;
     }
     div.information{
-        position:relative ;
+        position: relative;
         color:#FFFBDB;
-        right:-60rem ;
+        right:-30rem ;
         top:-8rem ;
         font-size:1.2rem ;
+        width:22rem ;
+        height:10rem ;
+        
     }
     div.enviar-mensagem{
         background-color:#7E7E8B ;

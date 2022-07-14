@@ -8,14 +8,18 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { CartContext } from "../../Context/cart";
 
-
-
 interface productsProps{
     id: number,
     name:string,
     price:number,
     image:any
 }
+
+function add(id:number, name:string, price:number, image:any, addProduct:(id:number, name:string, price:number, image:any)=>void){
+    addProduct(id, name, price, image)
+    alert('Produto Adicionado')
+}
+
 
 export function Products(){
     const procut = products
@@ -44,7 +48,7 @@ export function Products(){
             <img src={products.image} alt="imagem de um produto" />
             <p>{products.name}</p>
             <span>R$ {products.price},00</span>
-            <button onClick={()=>addProduct(products.id, products.name, products.price, products.image)}>Adicionar ao Carrinho</button>
+            <button onClick={()=>add(products.id, products.name, products.price, products.image, addProduct)}>Adicionar ao Carrinho</button>
             </div>
         </SwiperSlide>
     ))}

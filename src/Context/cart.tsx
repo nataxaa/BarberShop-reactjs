@@ -48,14 +48,14 @@ export default function CartProvider({ children }:any){
     
         if (item && item.qtd > 1) {
           item.qtd = item.qtd - 1;
+
           const aux1 = total
           setTotal(aux1 - price)
-          
+  
           const aux = quant ;
           setQuant(aux - 1)
-          
-          
           setProductCart(copyProductsCart);
+
         } else {
           const arrayFiltered = copyProductsCart.filter(
             (product) => product.id !== id
