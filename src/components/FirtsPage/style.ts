@@ -6,16 +6,16 @@ export const Container = styled.div`
     background-color:black ;
     width:auto ;
     height:max-content ;
-    height:600px ;
+    height:710px ;
     color:white ;
     background-image: url(${images});
-    background-position: 50% -100%;  
+    background-position: 50% ;  
     background-repeat:no-repeat;
 
     h1{
         text-align:center ;
-        position:relative ;
-        top:3rem ;
+
+        padding-top:4rem ;
         font-size: 3.8rem ;
         font-style:oblique ;
         color:#A1683A ;

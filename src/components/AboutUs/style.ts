@@ -9,11 +9,10 @@ export const Container = styled.div`
     background-color:#A1683A ;
 
     h1{
-        position:relative ;
-        text-align:right ;
-        right:15rem ;
-        top:6rem ;
+        width:30rem ;
         font-size:4rem ;
+        margin-top:-3rem ;
+        padding-bottom:2rem ;
     }
 
     div.style-second-page{
@@ -31,8 +30,8 @@ export const Container = styled.div`
 
     img{
         width:25rem ;
-        height:30rem ;
+        height:28rem ;
         border-radius:10px ;
-        margin-top:2rem ;
+        margin-top:5rem ;
     }
 ` 

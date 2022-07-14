@@ -10,7 +10,7 @@ export const Container = styled.div`
     
     h1{
         text-align:center ;
-        padding-top:3rem ;
+        padding-top:4rem ;
         font-size:4rem ;
     }
     button{

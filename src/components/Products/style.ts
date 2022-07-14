@@ -58,33 +58,8 @@ div.style-swiper{
     h1{
         text-align:center ;
         font-size:3.5rem ;
-        padding-top:2rem ;
+        padding-top:4rem ;
     }
  
 
 ` 
-
-export const ListProducts = styled.div`
-
-display:grid ;
-grid-template-columns:1fr 1fr 1fr ;
-width:50rem ;
-margin-top:1rem ;
-div.list-products{
-    background-color:#A1683A ;
-    margin-bottom:1rem ;
-    padding:10px ;
-    border-radius:10px ;
-    p{
-        text-align:center ;
-    }
-    button{
-        align-items:center ;
-    }
-}
-img{
-    width:12rem ;
-    border-radius:10px ;
-}
-
-`

@@ -4,8 +4,9 @@ import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 
 export function Contact(){
     return(
-        <Container>
+        <Container id="Contact">
             <h1>Contato</h1>
+            <div className="enviar-mensagem">
             <input type="text"
             placeholder="Digite seu nome.."
             />
@@ -16,6 +17,8 @@ export function Contact(){
             className="style-mensagem"
             placeholder="Digite sua mensagem.."
             />
+            <button>Enviar Mensagem</button>
+            </div>
             <span className="facebook-icon"><FiFacebook/></span>
             <span className="insta-icon"><FiInstagram/></span>
             <span className="youtube-icon"><FiYoutube/></span>

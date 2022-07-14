@@ -3,11 +3,12 @@ import images from '../../images/historia.jpg'
 
 export function AboutUs(){
     return(
-        <Container>
-            <h1>Nossa <span>História</span></h1>
+        <Container id="AboutUs">
+            
             <div className="style-second-page">
                 <img src={images} alt="imagem de uma barbearia" />
                 <p className="text-second-page">
+                <h1>Nossa <span>História</span></h1>
                     Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto.
                     É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim e 
                     você poderá adicionar o seu próprio conteúdo e trocar fontes. Sinta-se à 
