@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  <img alt="TwitterClone" title="#delicinha" src="src/images/first.jpg" width="150px" border-radius="20px" />
+  <img alt="TwitterClone" title="#delicinha" src="src/images/first.jpg" width="150px" borderadius="20px" />
 </h1>
 
 <p align="center">
@@ -13,11 +13,11 @@
     <img alt="Languages" src="https://img.shields.io/github/languages/count/nataxaa/BarberShop?color=33A1F2&style=flat-square">
   </a>
 
-  <a href="https://github.com/ronnyacacio/twitter-clone/stargazers">
+  <a href="https://github.com/nataxaa/BarberShop/stargazers">
     <img alt="Stars" src="https://img.shields.io/github/stars/nataxaa/BarberShop?color=33A1F2&style=flat-square">
   </a>
 
-  <a href="https://github.com/ronnyacacio/twitter-clone/commits/master">
+  <a href="https://github.com/nataxaa/BarberShop/commits/master">
     <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/BarberShop?color=33A1F2&style=flat-square">
   </a>
 
