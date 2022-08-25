@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  <img alt="TwitterClone" title="#delicinha" src="src/images/image_first_page.jpg" width="150px" border-radius="20px" />
+  <img alt="TwitterClone" title="#delicinha" src="src/images/first.jpg" width="150px" border-radius="20px" />
 </h1>
 
 <p align="center">
