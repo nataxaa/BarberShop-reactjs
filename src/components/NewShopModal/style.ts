@@ -51,6 +51,7 @@ button.icon{
     margin-right:0.2rem ;
     align-items:center ;
     cursor: pointer;
+    color: rgb(80,80,80)
 }
 
 `

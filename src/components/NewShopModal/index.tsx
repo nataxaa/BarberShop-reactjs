@@ -5,7 +5,6 @@ import { Container } from './style';
 import {FiPlus, FiMinus} from 'react-icons/fi'
 
 
-
 Modal.setAppElement('#root');
 
 interface modalProps{
@@ -27,15 +26,6 @@ export function ShopCartModal({isOpen, onRequestClose}:modalProps){
     const {addProduct, productsCart, total, removeProductToCart}:any = useContext(CartContext)
     const [flag, setFlag] = useState<boolean>()
     
-    function Products0(){
-        if(productsCart>0){
-          setFlag(false)
-        }else{
-           setFlag(true)
-        }
-    }
-
-
     return(
         <Modal
         isOpen={isOpen}
@@ -47,7 +37,7 @@ export function ShopCartModal({isOpen, onRequestClose}:modalProps){
                 <h1>Produtos</h1>
                 <div className='list-products'>
                     {flag && 
-                        <h1>Nenhum produto Adicionado.</h1>
+                        <h2>Nenhum Caralho</h2>
                     }
                     {productsCart.map((products:listProps)=>(
                         <div className='product-item'>
