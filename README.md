@@ -1,8 +1,10 @@
 
 
 <h1 align="center">
-  <img alt="TwitterClone" title="#delicinha" src="src/images/first.jpg" width="150px" borderadius="20px" />
+  <img alt="Barber" title="#delicinha" src="src/images/first.jpg" width="150px" borderRadius="20px" />
 </h1>
+
+#BarberShop
 
 <p align="center">
   <a href="https://github.com/nataxaa">
