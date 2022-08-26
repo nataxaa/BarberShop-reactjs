@@ -15,16 +15,12 @@
     <img alt="Languages" src="https://img.shields.io/github/languages/count/nataxaa/BarberShop-reactjs?color=33A1F2&style=flat-square">
   </a>
 
-  <a href="https://github.com/nataxaa/BarberShop/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/nataxaa/BarberShop?color=33A1F2&style=flat-square">
-  </a>
-
   <a href="https://github.com/nataxaa/BarberShop/commits/master">
-    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/BarberShop?color=33A1F2&style=flat-square">
+    <img alt="LastCommit" src="https://img.shields.io/github/last-commit/nataxaa/BarberShop-reactjs?color=33A1F2&style=flat-square">
   </a>
 
   <a href="#">
-    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/nataxaa/BarberShop?color=33A1F2&style=flat-square">
+    <img alt="RepoSize" src="https://img.shields.io/github/repo-size/nataxaa/BarberShop-reactjs?color=33A1F2&style=flat-square">
   </a>
 
 </p>
